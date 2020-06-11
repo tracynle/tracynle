@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .home-page {
+    overflow: hidden;
+  }
+  
+  .small a {
+    color: #000;
+
+  }
+  .small a:link {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .small a:hover {
+    color: #55505C;
+  }
+  .small a:active {
+    color: #55505C;
+    text-decoration: none;
+
+  }
+  nav {
+    background-color: white;
+  }
+
+  .home-page nav {
+      margin-left: -15px;
+  }
+  .wrapper {
+    margin: 0 auto;
+    padding-top: 64px;
+    width: 94%;
+  }
+
+  #showcase img {
+    font-size: 50px;
+    line-height: 1.3;
+    position: relative;
+    animation: heading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  /* header comes from the top and slides in */
+  @keyframes heading {
+      0%   {top: -300px;}
+      100% {top: 20px;}
+  }
+
+  /* Brings content from below */
+  .animate-below {
+    line-height: 1.3;
+    position: relative;
+    animation: animate-below;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes animate-below {
+      100% {top: 20px;}
+      0%   {top: 300px;}
+  }
+ 
+.mt-1 {
+    margin-top: 0 !important;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.icon {
+    color: #DB7F8E;
+    font-size: 30px;
+}
+
+/* About Skills section */
+li {
+    list-style-type: none;
+    text-align-last: left;
+}
+
+
+.skills-list {
+    list-style-type: none;
+}
+
+.skill-ul  {
+    padding: 0;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.skill-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #55505C;
+    padding-left: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: #000 1px solid;
+    margin-top:40px;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+  
+  .btn:hover {
+    color: #fff;
+  }
+
+  @keyframes btn {
+    0%   {opacity:0}
+    100% {opacity: 1}
+  }
+
+#button-portfolio {
+    background-color: #C6A52F;
+    border: #C6A52F;
+    color: #fff;
+}
+
