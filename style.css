@@ -160,3 +160,8 @@ li {
     color: #fff;
 }
 
+@media screen and (max-width: 990px) {
+    .home-page nav {
+        margin-left: 15px;
+    }
+}
