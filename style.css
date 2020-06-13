@@ -19,9 +19,9 @@
     text-align: center;
   }
   .home-page {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
-  
+
   .small a {
     color: #000;
 
@@ -48,7 +48,7 @@
   }
   .wrapper {
     margin: 0 auto;
-    padding-top: 64px;
+    /* padding-top: 64px; */
     width: 94%;
   }
 
@@ -164,4 +164,5 @@ li {
     .home-page nav {
         margin-left: 15px;
     }
+ 
 }
